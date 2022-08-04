@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 const client = new discord.Client()
-const { prefix, ServerID } = require("./config.json")
-const config = require('./config.json');
+const { prefix, ServerID } = require("./package.json")
+const package = require('./package.json');
 
 client.on("ready", () => {
 
